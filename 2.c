@@ -10,7 +10,6 @@ int main(){
     printf("enter the number of threads: ");
     scanf("%d", &t);
 
-	//dynamically allocate arrays
     int **arr1 = (int **)malloc(r * sizeof(int *));
     for (i=0; i<r; i++)
          arr1[i] = (int *)malloc(c * sizeof(int));
